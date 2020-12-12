@@ -60,7 +60,7 @@ const Introduction = (props) => {
     <SafeAreaView style={{flex: 1, backgroundColor: '#eceff1'}}>
       <View style={{flex: 1}}>
         <View style={introduction.banner}>
-          <Text style={introduction.bannerText}>Aradığınız dili seçin</Text>
+          <Text style={introduction.bannerText}>Select Your Programming Language</Text>
         </View>
 
         <ScrollView horizontal contentContainerStyle={{alignItems: 'center'}}>

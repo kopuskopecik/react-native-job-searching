@@ -73,7 +73,7 @@ const Jobs = (props) => {
             right: 10,
           }}
           onPress={() => props.navigation.navigate('SavedJobs')}>
-          <Text style={{color: 'white'}}>Kayıtlıları Gör</Text>
+          <Text style={{color: 'white'}}>See Records</Text>
         </TouchableOpacity>
 
         <Modal
@@ -92,7 +92,7 @@ const Jobs = (props) => {
                 source={{html: selectedJob.description}}
               />
             </View>
-            <Button title="Kaydet" onPress={onJobSave} />
+            <Button title="Add" onPress={onJobSave} />
           </View>
         </Modal>
       </View>
